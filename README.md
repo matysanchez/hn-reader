@@ -2,7 +2,7 @@
 
 A (another one) Hacker News reader. Really minimalist and beautiful.
 
-This reader use only JS to work. And.. kimono API. Nothing else.
+This reader use only JS to work. And.. [kimono API](http://kimonolabs.com). Nothing else.
 Using [skeleton](http://www.getskeleton.com/) as CSS base framework. Yes, it's reponsive!
 
 ##Focus on the important:: the news
