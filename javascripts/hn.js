@@ -77,8 +77,10 @@ function addTitle(data){
             append+= ' '+time_text;
         if( source_text )
             append+= ' | '+source_text;
-        if( comments_href && comments_text )
+        if( comments_href && comments_text ){
+            comments_href = comments_href.replace("//", "/");
             append+= ' | <a href="'+comments_href+'">'+comments_text;
+        }
 
         append+='</a></p>'
         append+= '   </div>';
