@@ -78,7 +78,7 @@ function addTitle(data){
         if( source_text )
             append+= ' | '+source_text;
         if( comments_href && comments_text ){
-            comments_href = comments_href.replace("//", "/");
+            comments_href = comments_href.replace("//item?", "/item?");
             append+= ' | <a href="'+comments_href+'">'+comments_text;
         }
 
